@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Syne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Syne:wght@400;600&display=swap');
 
 * {
     margin: 0px;
@@ -6,40 +6,55 @@
     box-sizing:border-box
 }
 body {
-    background-color: white;
-    background-size: cover;
-    width: auto; height: auto;
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
 }
-#top {
-    background-image: url(../img/top.png); height: 100%; width: auto;
-    padding: 10px 90px 10px 90px;
-    margin-bottom: 20px;
-    background-size: cover;
+h2 {
+    color: #fff;
+    font-family: 'Germania One', cursive;
+    font-size: 60px;
 }
-h1 {
+h3 {
     color: #323131;
     font-family: 'Germania One', cursive;
-    text-align: center;
-    font-size: 20px;
+    font-size: 48px;
+}
+#top {
+    background-image: url(../img/top.png); 
+    min-height: 692px; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .nav-text {
-    width: 100%;
-    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
 }
 .nav-text a{
     color: #fff;
     text-decoration: none;
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    padding: 20px;
+    margin-left: 30px;
 }
-.nav-logo {
-    text-align: left;
+#nav {
+width: 100%;
+position: absolute;
+top: 0;
 }
-.nav {
-    display: flex;
+.explore {    
+    width: 50%;
+    color: #fff;
 }
-
 @media only screen and (max-width: 1440px) {
 
 }
