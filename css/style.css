@@ -80,28 +80,56 @@ h3 {
     border-bottom-left-radius: 20px;
 }
 #mid {
-    background-image: url(/img/bawahnya-top.png), linear-gradient(to right, #fff, #fff);
+    background-image: url(/img/bawahnya-top.png),linear-gradient(to right, #500c7a, #9f2f87);
     background-repeat: no-repeat, no-repeat;   
-    min-height: 461px;
+    max-height: 461px; width: 100%;
+    background-size: cover;
 }
 .logo2 {
     text-align: center;
     padding-top: 139px;
     padding-bottom: 41px;
 }
-.floating-island {
+.about .floating-island {
     position: absolute;
-    top: -112px; right:-48px
+    top: -112px; right: -37px;
+    size: 100%;
 }
 .about {
     background-color: #fff6ec;
-    min-height: 633px; max-width: 1024px;
+    max-height: 632px; max-width: 1024px;
     background-position: center;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 68px;
 }
 .about h3 {
-    padding: 44px 54px;
+    padding: 44px 328px 18px 54px;
+}
+.about .p1 {
+    margin-left: 51px;
+}
+.about .dices {
+    position: absolute;
+    right: 24px;
+    bottom: 33px;
+}
+.border {
+    border-left: 5px solid #d9c1a4;
+    margin-left: 51px;
+}
+.border p {
+    padding-left: 26px;
+}
+.about p {
+    margin-right: 90px;
+}
+#campaign {
+    text-align: center;
+    position:relative;
+    color: #323131;
 }
 @media only screen and (max-width: 1440px) {
 
