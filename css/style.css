@@ -8,16 +8,19 @@
 body {
     font-family: 'Syne', sans-serif;
     font-size: 18px;
+    font-weight: 100;
 }
 h2 {
     color: #fff;
     font-family: 'Germania One', cursive;
     font-size: 60px;
+    font-weight: 100;
 }
 h3 {
     color: #323131;
     font-family: 'Germania One', cursive;
     font-size: 48px;
+    font-weight: 100;
 }
 #top {
     background-image: url(../img/top.png);
@@ -31,7 +34,7 @@ h3 {
 }
 #nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
 }
 .nav-container {
@@ -58,6 +61,7 @@ h3 {
 }
 .explore p {
     margin-right: 30%;
+    font-size: 18px;
 }
 .button {
     display: flex;
@@ -76,17 +80,29 @@ h3 {
     border-bottom-left-radius: 20px;
 }
 #mid {
-    background-image: url(/img/bawahnya-top.png);
+    background-image: url(/img/bawahnya-top.png), linear-gradient(to right, #fff, #fff);
+    background-repeat: no-repeat, no-repeat;   
     min-height: 461px;
 }
 .logo2 {
     text-align: center;
     padding-top: 139px;
+    padding-bottom: 41px;
+}
+.floating-island {
+    position: absolute;
+    top: -112px; right:-48px
 }
 .about {
     background-color: #fff6ec;
+    min-height: 633px; max-width: 1024px;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-
+.about h3 {
+    padding: 44px 54px;
+}
 @media only screen and (max-width: 1440px) {
 
 }
