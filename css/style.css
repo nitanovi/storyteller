@@ -80,7 +80,7 @@ h3 {
     border-bottom-left-radius: 20px;
 }
 #mid {
-    background-image: url(/img/bawahnya-top.png),linear-gradient(to right, #500c7a, #9f2f87);
+    background-image: url(/img/bawahnya-top.png);
     background-repeat: no-repeat, no-repeat;   
     max-height: 461px; width: 100%;
     background-size: cover;
@@ -126,7 +126,8 @@ h3 {
 .about p {
     margin-right: 90px;
 }
-#campaign {
+#campaign h3{
+    padding-top: 506px;
     text-align: center;
     position:relative;
     color: #323131;
