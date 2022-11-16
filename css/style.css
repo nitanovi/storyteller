@@ -20,41 +20,73 @@ h3 {
     font-size: 48px;
 }
 #top {
-    background-image: url(../img/top.png); 
-    min-height: 692px; 
-    background-size: cover;
+    background-image: url(../img/top.png);
     background-position: center;
+    background-size: cover;
+    min-height: 692px;
     position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.nav-text {
-    display: flex;
-    align-items: center;
+#nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
 }
 .nav-container {
     width: 90%;
-    max-width: 1280px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
+}
+.nav-text {
+    display: flex;
+    align-items: center;
 }
 .nav-text a{
     color: #fff;
     text-decoration: none;
     margin-left: 30px;
 }
-#nav {
-width: 100%;
-position: absolute;
-top: 0;
-}
 .explore {    
     width: 50%;
     color: #fff;
+    padding-right: 50px;
 }
+.explore p {
+    margin-right: 30%;
+}
+.button {
+    display: flex;
+    margin-top: 48px;
+}
+.button a {
+    color: #fff;
+    display: flex;
+    padding: 20px 75px;
+}
+.button .explore2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #500c7a, #9f2f87);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#mid {
+    background-image: url(/img/bawahnya-top.png);
+    min-height: 461px;
+}
+.logo2 {
+    text-align: center;
+    padding-top: 139px;
+}
+.about {
+    background-color: #fff6ec;
+}
+
 @media only screen and (max-width: 1440px) {
 
 }
