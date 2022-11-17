@@ -132,6 +132,101 @@ h3 {
     position:relative;
     color: #323131;
 }
+.slide-wrapper {
+    margin-top: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.gradient {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0,0,0,0));
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.slide-card {
+    width: 30%;
+    border: solid 3px #500c7a;
+    background: #fff;
+    height: 533px;
+    position: relative;
+    margin-left: 20px;
+}
+.slide-card a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#arkemyr {
+    background-image: url(/img/castle.jpg);
+    background-position: 35% 50%;
+    background-size: cover;
+}
+#burning-tale {
+    background-image: url(/img/feywild.jpg);
+    background-position: 60% 50%;
+    background-size: cover;
+}
+#leviathan {
+    background-image: url(/img/pirate.jpg);
+    background-position: 60% 50%;
+    background-size: cover;
+}
+#doa {
+    background-image: url(/img/tavern.jpg);
+    background-position: 20% 50%;
+    background-size: cover;
+}
+.slide-card .campaign-logo img{
+    display: block;
+    width: 100%;
+}
+.campaign-logo {
+    bottom: 30px;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+#arkemyr.campaign-logo {
+    bottom: 45px;
+    padding: 10px 25px;
+}
+#burning-tale .campaign-logo img{
+    max-width: 331px;
+}
+#leviathan .campaign-logo img{
+    max-width: 258px;
+}
+#doa .campaign-logo img{
+    max-width: 231px;
+}
+.campaign-slide-nav {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #500c7a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.campaign-slide-nav > * {
+    border: solid 2px #500c7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.slide-prev {
+    margin-right: -2px;
+}
+
 @media only screen and (max-width: 1440px) {
 
 }
