@@ -96,7 +96,7 @@ h3 {
 }
 
 #mid {
-    background-image: url(img/bawahnya-top.png);
+    background-image: url(../img/bawahnya-top.png);
     background-repeat: no-repeat, no-repeat;
     max-height: 461px;
     width: 100%;
@@ -195,25 +195,25 @@ h3 {
 }
 
 #arkemyr {
-    background-image: url(img/castle.jpg);
+    background-image: url(../img/castle.jpg);
     background-position: 35% 50%;
     background-size: cover;
 }
 
 #burning-tale {
-    background-image: url(img/feywild.jpg);
+    background-image: url(../img/feywild.jpg);
     background-position: 60% 50%;
     background-size: cover;
 }
 
 #leviathan {
-    background-image: url(img/pirate.jpg);
+    background-image: url(../img/pirate.jpg);
     background-position: 60% 50%;
     background-size: cover;
 }
 
 #doa {
-    background-image: url(img/tavern.jpg);
+    background-image: url(../img/tavern.jpg);
     background-position: 20% 50%;
     background-size: cover;
 }
@@ -288,7 +288,7 @@ h3 {
 }
 #newsletter::after {
     content: '';    
-    background: url(..img/shelves.png);
+    background-image: url(../img/shelves.png);
     background-position: 50% 70%;
     opacity: 0.07;
     position: absolute;
