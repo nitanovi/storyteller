@@ -279,6 +279,7 @@ h3 {
     color: #500c7a;
     border: solid 2px #500c7a;
 }
+
 #newsletter {
     text-align: center;
     padding: 55px;
@@ -286,8 +287,9 @@ h3 {
     position: relative;
     margin: 115px 0 50px;
 }
+
 #newsletter::after {
-    content: '';    
+    content: '';
     background-image: url(../img/shelves.png);
     background-position: 50% 70%;
     opacity: 0.07;
@@ -297,6 +299,7 @@ h3 {
     width: 100%;
     height: 100%;
 }
+
 .newsletter-content {
     max-width: 770px;
     width: 90%;
@@ -304,22 +307,27 @@ h3 {
     position: relative;
     z-index: 5;
 }
+
 .newsletter-content h3 {
     color: #500c7a;
 }
+
 .newsletter-content p {
     margin: 20px 0;
 }
+
 .newsletter-content form {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .newsletter-content input {
     width: 89%;
     border: solid 2px #500c7a;
     padding: 15px;
 }
+
 .newsletter-content input::placeholder {
     color: #a996b2;
     font-family: 'Syne', sans-serif;
@@ -328,7 +336,7 @@ h3 {
 .newsletter-content button {
     width: 10%;
     background-image: linear-gradient(to right, #500c7a, #9f2f87);
-    border: none;    
+    border: none;
     font-family: 'Syne', sans-serif;
     font-weight: 700;
     color: #fff;
@@ -337,6 +345,7 @@ h3 {
     border-bottom-left-radius: 8px;
     cursor: pointer;
 }
+
 .newsletter-content button:hover {
     background: #500c7a;
 }
@@ -347,14 +356,15 @@ h3 {
     padding: 40px 0;
 }
 
-#attribution a{
-    background: #febf46;
+#attribution a {
     color: #000;
+    background: #febf46;
     text-decoration: none;
 }
-#attribution a:hover{
-    background: #da6d14;
+
+#attribution a:hover {
     color: #fff;
+    background: #da6d14;
 }
 
 @media only screen and (max-width: 1440px) {}
