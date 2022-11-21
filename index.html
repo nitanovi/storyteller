@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Teller</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -81,27 +82,27 @@
     <div id="campaign">
         <h3>&#9876;&#65039;Campaigns&#9876;&#65039;</h3>
     </div>
-    <div class="slider">
-        <div class="slide-wrapper">
-            <div id="arkemyr" class="slide-card">
+    <div class="swiper slider">
+        <div class="swiper-wrapper slide-wrapper">
+            <div id="arkemyr" class="swiper-slide slide-card">
                 <div class="gradient"></div>
                 <a href="">
                     <span class="campaign-logo">
                         <img src="img/arkemyr-logo.png" alt=""></a></span>
             </div>
-            <div id="burning-tale" class="slide-card">
+            <div id="burning-tale" class="swiper-slide slide-card">
                 <div class="gradient"></div>
                 <a href="">
                     <span class="campaign-logo">
                         <img src="img/bvale-logo.png" alt=""></a></span>
             </div>
-            <div id="leviathan" class="slide-card">
+            <div id="leviathan" class="swiper-slide slide-card">
                 <div class="gradient"></div>
                 <a href="">
                     <span class="campaign-logo">
                         <img src="img/odyssey-logo.png" alt=""></a></span>
             </div>
-            <div id="doa" class="slide-card">
+            <div id="doa" class="swiper-slide slide-card">
                 <div class="gradient"></div>
                 <a href="">
                     <span class="campaign-logo">
@@ -129,10 +130,24 @@
     </div>
     <div id="attribution">
         <div class="newsletter-content">
-            Attributions: assets by <a href="https://www.freepik.com/author/dgim-studio">dgim-studio</a>, <a href="https://www.freepik.com/author/upklyak">upklyak</a>,  Dragon icons created by <a href="https://www.flaticon.com/free-icons/dragon">Freepik - Flaticon</a>
+            Attributions: assets by <a href="https://www.freepik.com/author/dgim-studio">dgim-studio</a>, <a
+                href="https://www.freepik.com/author/upklyak">upklyak</a>, Dragon icons created by <a
+                href="https://www.flaticon.com/free-icons/dragon">Freepik - Flaticon</a>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
 
+            // Navigation arrows
+            navigation: {
+                nextEl: '.next',
+                prevEl: '.previous',
+            },
+        });</script>
 </body>
 
 </html>
