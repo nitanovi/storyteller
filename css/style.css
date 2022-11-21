@@ -161,6 +161,9 @@ h3 {
     position: relative;
     color: #323131;
 }
+.slider {
+    width: 80%;
+}
 
 .slide-wrapper {
     margin-top: 45px;
@@ -237,11 +240,12 @@ h3 {
 }
 
 #burning-tale .campaign-logo img {
-    max-width: 331px;
+    max-width: 350px;
 }
 
 #leviathan .campaign-logo img {
-    max-width: 258px;
+    max-width: 300px;
+    margin-bottom: 30px;
 }
 
 #doa .campaign-logo img {
@@ -254,6 +258,7 @@ h3 {
     color: #500c7a;
     display: flex;
     justify-content: flex-end;
+    padding-right: 145px;
 }
 
 .campaign-slide-nav a {
@@ -378,7 +383,7 @@ h3 {
     .about-content p {
         font-size: 14px;
         line-height: 15px;
-}
+    }}
 @media only screen and (max-width: 320px) {
     body {
         font-size: 11px;
