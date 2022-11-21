@@ -109,14 +109,14 @@ h3 {
     padding-bottom: 41px;
 }
 
-.about .floating-island {
+.about-content .floating-island {
     position: absolute;
     top: -112px;
     right: -37px;
     size: 100%;
 }
 
-.about {
+.about-content {
     background-color: #fff6ec;
     max-height: 632px;
     max-width: 1024px;
@@ -128,15 +128,15 @@ h3 {
     padding-bottom: 68px;
 }
 
-.about h3 {
+.about-content h3 {
     padding: 44px 328px 18px 54px;
 }
 
-.about .p1 {
+.about-content .p1 {
     margin-left: 51px;
 }
 
-.about .dices {
+.about-content .dices {
     position: absolute;
     right: 24px;
     bottom: 33px;
@@ -277,6 +277,7 @@ h3 {
     background-color: #ffffff00;
     color: #500c7a;
     border: solid 2px #500c7a;
+    margin-left: -2px;
 }
 
 #newsletter {
@@ -367,3 +368,51 @@ h3 {
 }
 
 @media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 425px) {
+    body {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    .float-img {
+        display: none;
+    }
+    #mid {
+        padding-top: 50px;
+    }
+    .about-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .about-content h3 {
+        margin-bottom: 15px;
+    }
+    .about-content blockquote {
+        margin: 10px 0;
+        border-left: none;
+        border-top: solid 4px #d9c1a4;
+        background: #fff;
+        padding: 10px;
+    }
+    #campaign {
+        margin-top: 50px;
+    }
+    .campaign-slide {
+        margin-top: 20px;
+    }
+    #newsletter {
+        margin-top: 50px;
+    }
+    #newsletter form {
+        display: block;
+    }
+    #newsletter input {
+        width: 100%;
+    }
+    #newsletter button {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+}
